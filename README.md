@@ -2,14 +2,6 @@
 
 This research project focuses on generating high-quality synthetic data through innovative data mining techniques, advanced modeling and a real world application.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Data Mining](#data-mining)
-- [Synthetic Data Generation](#synthetic-data-generation)
-- [AI Career Advisor](#ai-career-advisor)
-- [Installation](#installation)
-
 ## Project Overview
 
 This Research Project is composed of three main components: data mining, synthetic data generation, and an AI Career Advisor. The data mining phase involves scraping LinkedIn profiles using Selenium and Optical Character Recognition (OCR) to gather detailed profile information efficiently. The synthetic data generation phase employs chained Large Language Models (LLMs) to produce realistic and heterogene synthetic data. The AI Career Advisor leverages the mined and synthetic data to offer personalized advice to students and young professionals, helping them achieve their academic and professional goals by providing insights into career paths and outcomes associated with specific degrees or jobs.
