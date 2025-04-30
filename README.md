@@ -8,6 +8,7 @@ This research project focuses on generating high-quality synthetic data through 
 - [Data Mining](#data-mining)
 - [Synthetic Data Generation](#synthetic-data-generation)
 - [AI Career Advisor](#ai-career-advisor)
+- [Installation](#installation)
 
 ## Project Overview
 
