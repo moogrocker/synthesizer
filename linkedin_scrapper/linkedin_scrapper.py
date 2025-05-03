@@ -26,19 +26,6 @@ job = "data scientist"
 location = "london"
 
 
-
-def search_people(job, location):
-
-    base_url = "https://www.linkedin.com/search/results/people/"
-
-    keywords = f"{job},{location}"
-
-    encoded_keywords = urllib.parse.quote(keywords) # URL-encode the keywords
-    params = f"keywords={encoded_keywords}&origin=GLOBAL_SEARCH_HEADER" # Construct the query parameters
-    search_url = f"{base_url}?{params}"
-    return search_url
-
-
 def login(email, password):
 
     driver = webdriver.Chrome()
@@ -58,3 +45,15 @@ def login(email, password):
         )
     except Exception as e:
         print("Error: Page did not load in time", e)
+
+
+def search_people(job, location):
+
+    base_url = "https://www.linkedin.com/search/results/people/"
+
+    keywords = f"{job},{location}"
+
+    encoded_keywords = urllib.parse.quote(keywords) # URL-encode the keywords
+    params = f"keywords={encoded_keywords}&origin=GLOBAL_SEARCH_HEADER" # Construct the query parameters
+    search_url = f"{base_url}?{params}"
+    return search_url
