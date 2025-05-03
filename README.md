@@ -1,10 +1,10 @@
 # Synthesizer - Research Project
 
-An advanced research project focused on generating **high-quality synthetic data** through innovative **data mining** techniques, **advanced modeling** and a **real world application**.
+An advanced research project focused on generating **high-quality synthetic data** through innovative **data mining** techniques and **advanced modeling**.
 
 ## Project Overview
 
-This Research Project is composed of three main components: data mining, synthetic data generation, and an AI Career Advisor. The data mining phase involves scraping LinkedIn profiles using Selenium and Optical Character Recognition (OCR) to gather detailed profile information efficiently. The synthetic data generation phase employs chained Large Language Models (LLMs) to produce realistic and heterogene synthetic data. The AI Career Advisor leverages the mined and synthetic data to offer personalized advice to students and young professionals, helping them achieve their academic and professional goals by providing insights into career paths and outcomes associated with specific degrees or jobs.
+This Research Project is composed of two main components: data mining and synthetic data generation. The data mining phase involves scraping LinkedIn profiles using Selenium and Optical Character Recognition (OCR) to gather detailed profile information efficiently. The synthetic data generation phase employs chained Large Language Models (LLMs) to produce realistic and heterogene synthetic data.
 
 ## 1 - Data Mining
 
@@ -13,11 +13,6 @@ The first part of the project involves data mining by scraping LinkedIn profiles
 ## 2 - Synthetic Data Generation
 
 The second part focuses on creating a model to generate high-quality synthetic data. We utilize chained Large Language Models (LLMs) to ensure the data is both realistic and diverse. This approach leverages the power of LLMs to produce synthetic data that closely mimics real-world data.
-
-## 3 - AI Career Advisor
-
-Based on the data mined from LinkedIn and the synthetic data generation, this is a fine-tuned LLM designed to assist students and young professionals in their academic and professional paths. Users can upload their resumes and specify their professional or academic goals. The AI Career Advisor provides personalized advice on steps to achieve these goals. Additionally, it offers insights into career paths and outcomes associated with specific degrees or jobs, providing more accurate information on what people typically do after pursuing certain educational or professional routes.
-
 
 
 ## Installation
