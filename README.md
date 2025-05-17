@@ -1,6 +1,6 @@
 # Synthesizer - Research Project
 
-An advanced research project focused on generating **high-quality synthetic data** through innovative **data mining** techniques and **advanced modeling**.
+An advanced research project focused on generating **high-quality synthetic data** through innovative **data mining** techniques and **advanced modelling**.
 
 ## Project Overview
 
