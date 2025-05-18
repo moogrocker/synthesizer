@@ -27,3 +27,8 @@ To set up the project, follow these steps:
 2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
+
+
+## Contributors
+
+Fabrice Sashinkumar, Arthur Dauchez, Manon Letayf
