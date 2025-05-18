@@ -1,6 +1,6 @@
 # Synthesizer - Research Project
 
-An advanced research project focused on generating **high-quality synthetic data** through innovative **data mining** techniques and **advanced modeling**.
+An advanced research project focused on generating **high-quality synthetic data** through innovative **data mining** techniques and **advanced modelling**.
 
 ## Project Overview
 
@@ -27,3 +27,8 @@ To set up the project, follow these steps:
 2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
+
+
+## Contributors
+
+Fabrice Sashinkumar, Arthur Dauchez, Manon Letayf
