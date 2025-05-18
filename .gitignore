@@ -1,3 +1,9 @@
-.envrc
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# dotenv files
 .env
+.envrc
+
+# Pyenv
 .python-version
