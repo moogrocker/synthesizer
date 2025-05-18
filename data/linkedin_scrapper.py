@@ -1,5 +1,4 @@
 from time import sleep
-import parameters
 import os
 import pandas as pd
 from fpdf import FPDF
