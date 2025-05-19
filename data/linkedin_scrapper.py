@@ -3,6 +3,8 @@ import os
 import pandas as pd
 from fpdf import FPDF
 import urllib.parse
+import os
+from dotenv import load_dotenv
 
 # Traditional scrapping
 import requests
@@ -19,10 +21,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-link_name = 'moogrockersynthesizer@gmail.com'
-link_password = 'Mr9jCq6NtttN?f8$'
-job = "data scientist"
-location = "london"
+load_dotenv()
+
+email = os.getenv("LINKEDIN_USERNAME")
+password = os.getenv("LINKEDIN_PASSWORD")
+
+
+# job = "data scientist"
+# location = "london"
 
 
 def login(email, password):
