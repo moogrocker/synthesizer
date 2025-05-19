@@ -27,8 +27,8 @@ email = os.getenv("LINKEDIN_USERNAME")
 password = os.getenv("LINKEDIN_PASSWORD")
 
 
-# job = "data scientist"
-# location = "london"
+job = "data scientist"
+location = "london"
 
 
 def login(email, password):
@@ -62,3 +62,4 @@ def search_people(job, location):
     params = f"keywords={encoded_keywords}&origin=GLOBAL_SEARCH_HEADER" # Construct the query parameters
     search_url = f"{base_url}?{params}"
     return search_url
+
